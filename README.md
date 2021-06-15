@@ -1,2 +1,2 @@
-# RunescpaeAPI
+# PokemonAPI
 First project for PCA 

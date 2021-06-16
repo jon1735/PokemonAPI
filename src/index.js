@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const searchPokemon = searchBox.value
     const pokemonList = document.querySelector("#pokemon-list")
     fetch(`https://pokeapi.co/api/v2/pokemon/${searchPokemon}`)
-    .then(resp => resp.json())
-    .then(data => {
+      .then(resp => resp.json())
+      .then(data => {
         const newPokemonList = document.createElement("li")
         newPokemonList.innerHTML = data.name
         const newPokemonImg = document.createElement("img")

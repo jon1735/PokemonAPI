@@ -5,6 +5,7 @@ First project for PCA
 Fork and clone this repository to your terminal.
 Open index.HTML in your terminal
 In the search bar, type in the name of your favorite Pokemon
+ - try any of these: (Pikachu, Mewtwo, Charmander)
 Once the Pokemon's picture and name appear, click on the picture to pull up the abilities. 
 If you like the Pokemon, click on the like button to show your love!
 

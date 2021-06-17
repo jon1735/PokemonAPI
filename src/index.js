@@ -16,9 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         newPokemonImg.src = data.sprites.front_default
         newPokemonList.append(newPokemonImg)
         pokemonList.append(newPokemonList)
-        // add the event listener here
-        // add the fetch after the EL
-        // need pokemon name, need elemend id
+
         newPokemonImg.addEventListener("click", (event) => {
           event.preventDefault()
           const pokemonAbilities = document.querySelector("#ability-list")
@@ -33,5 +31,13 @@ document.addEventListener("DOMContentLoaded", function () {
             })
         })
       })
+  })
+  const likeButton = document.querySelector("button.like-button")
+  let letNumberOfLikes = 0
+
+  likeButton.addEventListener("click", () => {
+    letNumberOfLikes++
+    const likeCounter = document.querySelector("span.likes")
+    likeCounter.innerHTML = `${letNumberOfLikes} likes`
   })
 })

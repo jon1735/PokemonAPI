@@ -8,6 +8,6 @@ This application is designed to utilize a simple search bar to allow the end use
 
 2. Clicking on the Pokemon's name will allow the user to pull up the Pokemon's special passive abilities.
 
-
+3. There is also a like button implemented on the page, clicking this like button will increase the amount of likes to this like button.
 
 
